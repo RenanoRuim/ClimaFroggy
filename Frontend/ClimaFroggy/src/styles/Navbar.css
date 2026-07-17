@@ -1,0 +1,77 @@
+#Body {
+    padding: 24px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    min-height: 64px; 
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    transition: padding 0.3s ease; 
+}
+
+#logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 12px; 
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eeffdb;
+}
+
+#logo img {
+    width: 200px; 
+    height: auto; 
+    transition: width 0.3s ease; 
+}
+
+#About {
+    height: auto; 
+    width: auto;
+}
+
+.botao-sobre-nos {
+  background-color: #10a549; 
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block; 
+  transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s, padding 0.3s ease;
+}
+
+.botao-sobre-nos:hover {
+  background-color: #0d823a;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 87, 43, 0.4);
+  cursor: pointer;
+}
+
+.botao-sobre-nos:active {
+  transform: scale(0.95);
+}
+
+
+@media (max-width: 768px) {
+    #Body {
+        padding: 16px;
+    }
+
+    #logo {
+        font-size: 18px; 
+        gap: 8px;       
+    }
+
+    #logo img {
+        width: 100px; 
+    }
+
+    .botao-sobre-nos {
+        padding: 8px 16px; 
+        font-size: 14px;   
+    }
+}

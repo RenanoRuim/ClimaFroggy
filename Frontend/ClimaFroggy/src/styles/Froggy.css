@@ -1,0 +1,113 @@
+#posicionadorSapo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 150px; 
+  transition: margin-top 0.3s ease; 
+
+#container {
+  position: relative; 
+  width: 550px;
+  height: 400px;
+  background-color: #0ba84a; 
+  border-radius: 30px 30px 20px 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  padding-bottom: 20px; 
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+#olhoDireito, #olhoEsquerdo {
+  position: absolute; 
+  top: -65px; 
+  width: 110px;
+  height: 110px;
+  background-color: #0ba84a; 
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#olhoDireito { 
+  right: 40px; 
+}
+
+#olhoEsquerdo { 
+  left: 40px; 
+}
+
+#escleraDireita, #escleraEsquerda {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+#pupilaDireita, #pupilaEsquerda {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  top: 5px;
+}
+#pupilaDireita { left: 5px; }
+#pupilaEsquerda { right: 5px; }
+
+.narina {
+  position: absolute; 
+  top: 40px;
+  width: 4px;
+  height: 35px;
+  background-color: #000000;
+  border-radius: 2px;
+}
+
+.narina-esquerda { 
+  left: calc(50% - 15px); 
+}
+
+.narina-direita { 
+  left: calc(50% + 10px); 
+}
+
+#card {
+  width: 450px;
+  height: 280px;
+  background-color: #153a06; 
+  border-radius: 25px;
+  z-index: 2; 
+}
+
+
+@media (max-width: 768px) {
+  #posicionadorSapo {
+    margin-top: 100px; 
+    height: 320px;     
+  }
+
+  #container {
+   
+    transform: scale(0.75); 
+    transform-origin: top center; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  #posicionadorSapo {
+    margin-top: 80px; 
+    height: 270px; 
+  }
+
+  #container {
+    
+    transform: scale(0.62); 
+  }
+}
+}

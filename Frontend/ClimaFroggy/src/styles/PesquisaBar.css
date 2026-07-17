@@ -1,0 +1,50 @@
+#barraPesquisa {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 20px; 
+  padding: 5px 10px;
+  background-color: #fff; 
+  width: 100%; 
+  max-width: 400px; 
+  box-sizing: border-box;
+}
+
+#campoPesquisa {
+  flex: 1;
+  border: none; 
+  outline: none; 
+  font-size: 16px;
+  background: transparent;
+}
+
+#botaoPesquisa img {
+  width: 16px; 
+  height: 16px; 
+}
+
+#botaoPesquisa {
+  background: transparent;
+  border: none;
+  border-radius: 15px; 
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#botaoPesquisa:hover {
+  background-color: #035700; 
+}
+
+
+@media (max-width: 480px) {
+  #campoPesquisa {
+    font-size: 14px; 
+  }
+  #barraPesquisa {
+    padding: 4px 8px; 
+  }
+}

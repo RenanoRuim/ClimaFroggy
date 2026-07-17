@@ -1,0 +1,76 @@
+/* Container Principal do Card */
+.card-clima-box {
+  background-color: #163307;
+  border-radius: 15px;
+  padding: 20px;
+  width: auto; 
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+
+}
+
+/* Título e Subtítulo (Recife 40° / Nublado) */
+.titulo-card {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.titulo-card h1 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.titulo-card h2 {
+  font-size: 22px;
+  margin: 5px 0 0 0;
+  font-weight: normal;
+}
+
+/* Layout do Conteúdo em 3 Colunas */
+.conteudo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* Estilo das Colunas Laterais */
+.coluna-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço vertical entre os blocos de texto */
+  flex: 1;
+}
+
+/* Alinha os textos da direita para a direita */
+.alinhado-direita {
+  text-align: right;
+}
+
+/* Grupos de informações (ex: Vento + 50 KM/H) */
+.info-grupo h3 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.info-grupo p {
+  font-size: 18px;
+  margin: 5px 0 0 0;
+  font-weight: bold;
+}
+
+/* Coluna Centralizada da Lua */
+.coluna-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.lua-icone {
+  font-size: 80px; /* Tamanho do emoji/ícone */
+  line-height: 1;
+}
