@@ -1,4 +1,4 @@
-import '../Styles/PesquisaBar.css';
+import '../styles/PesquisaBar.css';
 import Search from '../assets/search.png'
 import { useState } from "react";
 import { buscarClima } from "../services/weatherService";

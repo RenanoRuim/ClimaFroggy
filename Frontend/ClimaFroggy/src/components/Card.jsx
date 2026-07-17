@@ -1,4 +1,4 @@
-import '../Styles/Card.css';
+import '../styles/Card.css';
 
 function Card({clima}) {
 

@@ -1,26 +1,25 @@
-import '../Styles/About.css';
-import NuvemImg from '../assets/sun.png'; // Sua imagem de nuvem
-import Sapo from '../assets/SapoLogo1.png' // Se tiver as imagens dos sapinhos
+import '../styles/About.css';
+import NuvemImg from '../assets/sun.png'; 
+import Sapo from '../assets/SapoLogo1.png';
 
 
 function About() {
   return (
     <div id="about-section">
       
-      {/* Botão/Título "Sobre Nós" no topo */}
+    
       <div id="sobreNos">
         <h1>Sobre Nós</h1>
       </div>
 
-      {/* Área Central: Nuvem, Texto e Sapinhos */}
+     
       <div className="conteudo-central">
         
-        {/* Sapinho da Esquerda (Opcional - remova as tags img se for fazer em CSS puro depois) */}
+    
         <div className="sapo-decorativo sapo-esq">
           <img src={Sapo} alt="Sapo Decorativo Esquerda" />
         </div>
 
-        {/* Bloco da Nuvem com Texto sobreposto */}
         <div className="container-nuvem">
           <img src={NuvemImg} className="nuvem-background" alt="Nuvem de fundo" />
           <div className="texto-sobreposto">

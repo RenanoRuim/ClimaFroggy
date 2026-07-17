@@ -1,4 +1,4 @@
-import '../Styles/Froggy.css';
+import '../styles/Froggy.css';
 import Card from './Card';
 
 function Froggy ({clima}){

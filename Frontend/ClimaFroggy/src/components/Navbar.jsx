@@ -1,4 +1,4 @@
-import '../Styles/Navbar.css';
+import '../styles/Navbar.css';
 import logo from '../assets/SapoLogo1.png'
 
 function Navbar(){
